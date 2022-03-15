@@ -5,8 +5,7 @@ LIC_FILES_CHKSUM="file://${THISDIR}/COPYING;md5=3da9cfbcb788c80a0384361b4de20420
 
 UPSTREAM_CHECK_COMMITS="1"
 
-SRCREV = "d7a09f2f12f17b4a3438e3a3821d9e1f2e428544"
-SRCBRANCH = "auh/test_auh"
-SRC_URI = "git://git@github.com:ksmanjunath18/auh-test-repo.git;protocol=ssh;branch=${SRCBRANCH}"
+SRCREV = "cdc3d4555990460d53f096389341514963996869"
+SRC_URI = "git://github.com/ksmanjunath18/auto-test-repo.git;protocol=https;branch=auh/test_auh"
 
 S="${WORKDIR}/git"
