@@ -1,0 +1,13 @@
+SUMMARY = "bitbake-layers recipe"
+DESCRIPTION = "Recipe created by bitbake-layers"
+LICENSE = "MIT"
+LIC_FILES_CHKSUM="file://${THISDIR}/COPYING;md5=3da9cfbcb788c80a0384361b4de20420"
+UPSTREAM_CHECK_COMMITS="1"
+#SRCREV = "0432b1a4f230e4c0c4e98678faf7cbeef60c7bb9"
+#SRCBRANCH = "IntelliVue/P.00.00/Common/A.01-work"
+#SRC_URI = "git://tfs.bbl.ms.philips.com/tfs/BBN%2520Solutions/PM/_git/synergy-oss-connman;protocol=ssh;branch=${SRCBRANCH}"
+SRCREV = "39a7ae22ca845e641db6988e785e51ad68bb6538"
+SRCBRANCH = "rizwan/scapy_learnings"
+SRC_URI = "git://tfs.bbl.ms.philips.com:22/tfs/BBN%2520Tooling/Git/_git/synergy-bangalore-misc;protocol=ssh;branch=${SRCBRANCH}"
+
+S="${WORKDIR}/git"
